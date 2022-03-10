@@ -1,53 +1,46 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-* {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: "Poppins", sans-serif;
-}
-#mi {
+h3{
   color: #03a9f4;
-  font-size: 10vw;
-  text-orientation: sideways-right;
-  
+  stroke: #fff;
 }
 
- 
-
-.content {
-
-  margin-left: 15vw;
-  margin-right: 15vw;
-  margin-top: 15vh;
-  background: #000;
-  align-items: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  }
+  
+  body {
   display: flex;
+  background: #000;
+  min-height: 100vh;
+  align-items: center;
   justify-content: center;
-}
-body {
+  }
   
-  background-color:#fff;
-}
-
-
-
-.content h2 {
-color: #fff;
-font-size: 8em;
-position: absolute;
-transform: translate(-50%, -50%);
-}
-
-.content h2:nth-child(1) {
-color: transparent;
--webkit-text-stroke: 1px #03a9f4;
-}
-
-.content h2:nth-child(2) {
-color: #03a9f4;
-animation: animate 4s ease-in-out infinite;
-}
+  .content {
+  position: relative;
+  }
+  
+  .content h2 {
+  color: #fff;
+  font-size: 8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  }
+  
+  .content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+  }
+  
+  .content h2:nth-child(2) {
+  color: #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+  }
+  
 
 @keyframes animate {
 0%,
